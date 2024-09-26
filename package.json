@@ -4,7 +4,11 @@
   "license": "MIT",
   "repository": "github:remodoy/spf-services",
   "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
+    "build": "tsc --build",
     "lint": "eslint --max-warnings 0 .",
     "typecheck": "tsc --skipLibCheck --noEmit",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
