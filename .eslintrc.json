@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "files": ["**/*.js", "**/*.ts"],
+  "ignore-path": [".gitignore"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "project": true
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "eqeqeq": ["error", "smart"],
+    "no-consecutive-blank-lines": 0,
+    "no-restricted-syntax": ["error", "BinaryExpression[operator='in']"],
+    "@typescript-eslint/explicit-member-accessibility": [
+      "error",
+      {
+        "accessibility": "no-public"
+      }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": [
+      "error",
+      {
+        "allowArgumentsExplicitlyTypedAsAny": true
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "none",
+        "varsIgnorePattern": "^_",
+        "argsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "off"
+  }
+}

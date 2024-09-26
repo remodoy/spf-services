@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"]
+}
