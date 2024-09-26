@@ -1,5 +1,7 @@
 {
   "name": "spf-services",
+  "version": "0.9.0",
+  "main": "src/index.ts",
   "description": "SPF service name mappings",
   "license": "MIT",
   "repository": "github:remodoy/spf-services",
