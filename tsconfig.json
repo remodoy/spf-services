@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "NodeNext",
+    "module": "CommonJS",
     "declaration": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
+    "importHelpers": true,
     "allowJs": true,
     "strict": true,
     "outDir": "./dist",
-    "sourceMap": true,
-    "jsx": "react-jsx"
+    "sourceMap": true
   },
   "include": ["src/**/*"]
 }
