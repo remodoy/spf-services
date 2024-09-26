@@ -8,7 +8,6 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
 
     "module": "nodenext",
     "outDir": "./dist",
