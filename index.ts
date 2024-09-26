@@ -5,8 +5,6 @@ export type SpfServiceType = {
     url?: string;
 };
 
-import { SpfServiceType } from "../types/spfServiceType";
-
 const serviceProviders: SpfServiceType[] = [
     {
         name: "ActiveCampaign",
