@@ -3,10 +3,17 @@
   "description": "SPF service name mappings",
   "license": "MIT",
   "repository": "github:remodoy/spf-services",
+  "bugs": {
+    "url": "https://github.com/remodoy/spf-services/issues"
+  },
+  "homepage": "https://github.com/remodoy/spf-services#readme",
   "private": true,
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
+  "files": [
+    "/dist"
+  ],
   "scripts": {
     "build": "tsc --build",
     "install": "tsc --build",
