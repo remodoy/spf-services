@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "tsc --build",
-    "install": "tsc --build",
+    "postinstall": "tsc --build",
     "lint": "eslint --max-warnings 0 .",
     "typecheck": "tsc --skipLibCheck --noEmit",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
