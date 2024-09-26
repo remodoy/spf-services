@@ -8,11 +8,11 @@
   },
   "homepage": "https://github.com/remodoy/spf-services#readme",
   "private": true,
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "files": [
-    "/dist"
+    "./dist"
   ],
   "scripts": {
     "build": "tsc --build",
