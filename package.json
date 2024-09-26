@@ -3,8 +3,19 @@
   "description": "SPF service name mappings",
   "license": "MIT",
   "repository": "github:remodoy/spf-services",
+  "bugs": {
+    "url": "https://github.com/remodoy/spf-services/issues"
+  },
+  "homepage": "https://github.com/remodoy/spf-services#readme",
   "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
+    "build": "tsc --build",
+    "postinstall": "tsc --build",
     "lint": "eslint --max-warnings 0 .",
     "typecheck": "tsc --skipLibCheck --noEmit",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
